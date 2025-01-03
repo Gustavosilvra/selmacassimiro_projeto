@@ -1,0 +1,47 @@
+.header-bg{
+    background-color: #fcfcfc;
+    margin-top: 0px;
+ }
+ .header-itens{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+ }
+ .selmanome{
+     font-family: "Amsterdam", sans-serif;
+     font-size: 30px;
+     font-weight: 300;
+     text-shadow: -2px 0px 2px rgba(0, 0, 0, 0.5);
+ }
+ .header-itens h1::before{
+ content: "";
+ display: block;
+ height: 50px;
+ width: 80px;
+ background-color: #82b1be;
+ position: absolute;
+ right: 860px;
+ top: 60px;
+ }
+ 
+ .linkwpp{
+     padding-left: 40px;
+     font-size: 20px;
+     text-decoration: none;
+     font-family: "Poppins";
+     font-weight: 500;
+     color: #82b1be;
+ }
+ .linkcontato{
+     padding-right: 40px;
+     font-size: 20px;
+     text-decoration: none;
+     font-family: "Poppins";
+     font-weight: 500;
+     color: #82b1be;
+ }
+ .linkwpp:hover, .linkcontato:hover{
+     color: rgb(121, 121, 224);
+ }
+ 
