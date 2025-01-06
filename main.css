@@ -2,10 +2,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 50px 70px;
+    align-items: center;
+    
 }
 
 .main-grid1 img{
      grid-column: 1;
+     display: block;
+     width: 400px;
+     height: 500px;
+     grid-row: 1;
+     justify-self: center;
+     margin-right: 50px;
 }
 .texto-bio{
     grid-column: 2;
@@ -13,6 +21,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
+
 main h1{
     display: block;
     text-align: center;
@@ -57,22 +66,47 @@ main h1{
 .last-feedb{
     grid-column: 1/-1;
     text-align: center;
+    max-width: 700px;
+    margin: 25px auto;
 }
 .linksflex{
     display: flex;
     justify-content: center;
-    gap: 350px;
-    margin: 50px;
+    gap: 400px;
+    margin: 50px 0px;
 
 }
 .linksflex a{
     background-color: #ffffff;
-    padding: 10px 20px 10px 50px;
     border-radius: 50px;
+    text-decoration: none;
 }
+.linkinstag{
+    background-image: url(./img/instagram\ svg.svg);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 25px 25px;
+    padding: 10px 15px 10px 45px;
+}
+.linkwhats{
+    background-image: url(./img/whatsapp\ svg.svg);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 25px 25px;
+    padding: 10px 15px 10px 45px;
+}
+
+
 .linkinstag:hover{
     background: linear-gradient(to right, #7804bb, #ffae00);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
 }
 .linkwhats:hover{
-        background: rgb(16, 245, 16);
+    background: rgb(16, 245, 16);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+
 }
