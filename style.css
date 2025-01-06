@@ -1,5 +1,8 @@
 @import url(./header.css);
 @import url(./main.css);
+@import url(./feedbacks.css);
+@import url(./atendimentos.css);
+@import url(./footer.css);
 
 body{
     margin: 0;

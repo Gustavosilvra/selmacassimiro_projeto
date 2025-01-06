@@ -3,9 +3,7 @@
     grid-template-columns: 1fr 1fr;
     margin: 50px 70px;
     align-items: center;
-    
 }
-
 .main-grid1 img{
      grid-column: 1;
      display: block;
@@ -20,93 +18,4 @@
     text-align: justify;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-}
-
-main h1{
-    display: block;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    color: #2998b7;
-    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.5) ;
-}
-.notas{
-    text-align: center;
-    position: relative;
-}
-.notas::before{
-    position: absolute;
-    content: "";
-    background: url(./img/google-color-svgrepo-com.svg) no-repeat center;
-    height: 100%;
-    width: 100%;
-    right: 160px;
-}
-.notas h2{
-    margin: 0px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-}
-.notas h3{
-    margin-top: 0px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-}
-.feedbacks{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-    font-family: "Snell", sans-serif;
-    font-size: 20px;
-    margin: 10px;
-}
-.last-feedb{
-    grid-column: 1/-1;
-    text-align: center;
-    max-width: 700px;
-    margin: 25px auto;
-}
-.linksflex{
-    display: flex;
-    justify-content: center;
-    gap: 400px;
-    margin: 50px 0px;
-
-}
-.linksflex a{
-    background-color: #ffffff;
-    border-radius: 50px;
-    text-decoration: none;
-}
-.linkinstag{
-    background-image: url(./img/instagram\ svg.svg);
-    background-repeat: no-repeat;
-    background-position: 15px center;
-    background-size: 25px 25px;
-    padding: 10px 15px 10px 45px;
-}
-.linkwhats{
-    background-image: url(./img/whatsapp\ svg.svg);
-    background-repeat: no-repeat;
-    background-position: 15px center;
-    background-size: 25px 25px;
-    padding: 10px 15px 10px 45px;
-}
-
-
-.linkinstag:hover{
-    background: linear-gradient(to right, #7804bb, #ffae00);
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 20px;
-}
-.linkwhats:hover{
-    background: rgb(16, 245, 16);
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 20px;
-
 }
