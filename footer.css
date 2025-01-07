@@ -1,0 +1,17 @@
+.footer-divs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 0px 0px 80px;
+}
+
+footer h1{
+    color: #82b1be;
+    font-family: "Poppins", sans-serif;
+}
+.footer-divs h2{
+    color: #82b1be;
+}
+footer{
+    margin: 150px 0px 0px 80px;
+}
