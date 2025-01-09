@@ -4,9 +4,13 @@
 @import url(./atendimentos.css);
 @import url(./footer.css);
 
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
-    background: linear-gradient(to bottom, #d5fdff 72%, #fcfcfc 28%);
+    background: linear-gradient(to bottom, #d5fdff , #fcfcfc);
 }
 
 

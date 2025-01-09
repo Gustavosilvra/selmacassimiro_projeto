@@ -13,16 +13,37 @@
      font-size: 30px;
      font-weight: 300;
      text-shadow: -2px 0px 2px rgba(0, 0, 0, 0.5);
+     /*outline: 1px blue solid;*/
  }
+
+ .nome-simb{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+   /* outline: 1px red solid;*/
+    font-family: "Poppins", sans-serif;
+    padding-right: 0px;
+    margin-right: 250px;
+ }
+
+.crpclasse{
+    align-self: end;
+    justify-self: center;
+    font-size: 15px;
+   /* outline: 1px blue solid;*/
+    padding: 0px;
+    max-width: 150px;
+    margin-left: 35px;
+}
  .header-itens h1::before{
  content: "";
  display: block;
- height: 50px;
- width: 80px;
- background-color: #82b1be;
+ height: 300px;
+ width: 310px;
+ background: url(./img/psi\ svg\ simble.svg) no-repeat center;
  position: absolute;
- right: 860px;
- top: 60px;
+ right: 820px;
+ top: -85px;
  }
  
  .linkwpp{

@@ -74,11 +74,11 @@
     background: linear-gradient(to right, #7804bb, #ffae00);
     color: #ffffff;
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 30px 10px 45px;
 }
 .linkwhats:hover{
-    background: rgb(16, 245, 16);
+    background: rgb(5, 205, 5);
     color: #ffffff;
-    text-align: center;
-    padding: 10px 20px;
+    padding: 10px 30px 10px 45px;
+    background-image: none;
 }
