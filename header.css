@@ -35,15 +35,20 @@
     max-width: 150px;
     margin-left: 35px;
 }
- .header-itens h1::before{
+.nome-simb{
+    position: relative;
+}
+
+ .nome-simb h1::before{
  content: "";
- display: block;
- height: 300px;
- width: 310px;
- background: url(./img/psi\ svg\ simble.svg) no-repeat center;
+ height: 75px;
+ width: 175px;
+ background-image: url(./img/psi\ svg\ simble.svg);
+ background-repeat: no-repeat;
+ background-position: center;
  position: absolute;
- right: 820px;
- top: -85px;
+ right: 250px;
+ top: 25px;
  }
  
  .linkwpp{

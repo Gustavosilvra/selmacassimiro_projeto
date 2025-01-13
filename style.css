@@ -6,7 +6,15 @@
 
 @font-face {
     font-family: "Amsterdam"; /* Nome da fonte */
-    src: url('./fonts/Amsterdam.ttf') format('ttf');}
+    src: url('./fonts/Amsterdam.ttf') format('ttf');
+}
+@font-face {
+    font-family: "Snell";
+    src: url('./fonts/snell-bold.otf') format("otf"); 
+}
+
+
+
 html{
     scroll-behavior: smooth;
 }
