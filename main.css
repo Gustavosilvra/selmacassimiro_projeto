@@ -1,9 +1,11 @@
 .main-grid1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0px 70px;
+   /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    margin: 50px 70px 150px 70px;
     align-items: center;
+    justify-items: center;
 }
+
 .main-grid1 img{
      grid-column: 1;
      display: block;
@@ -14,10 +16,21 @@
      margin-right: 50px;
 }
 .texto-bio{
-    grid-column: 2;
+    /*grid-column: 2;*/
     text-align: justify;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     max-width: 500px;
-
+    position: relative;
+    z-index: 1;
+    
+}
+.texto-bio::before{
+    content: "";
+    background: url(./img/CARINHA\ SVG.svg) no-repeat center;
+    width: 552px;
+    height: 367px;
+    position: absolute;
+    z-index: -1;
+    opacity: 20%;
 }

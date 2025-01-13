@@ -4,13 +4,15 @@
 @import url(./atendimentos.css);
 @import url(./footer.css);
 
-
+@font-face {
+    font-family: "Amsterdam"; /* Nome da fonte */
+    src: url('./fonts/Amsterdam.ttf') format('ttf');}
 html{
     scroll-behavior: smooth;
 }
 body{
     margin: 0;
-    background: linear-gradient(to bottom, #d5fdff , #fcfcfc);
+    background: linear-gradient(to bottom, #d5fdff 60% , #fcfcfc 85%);
 }
 
 
