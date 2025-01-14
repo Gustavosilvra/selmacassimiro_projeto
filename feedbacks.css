@@ -1,7 +1,7 @@
 .expcom{
     display: block;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-regular", sans-serif;
     font-size: 30px;
     font-weight: 400;
     color: #2998b7;
@@ -21,13 +21,13 @@
 }
 .notas h2{
     margin: 0px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-regular", sans-serif;
     font-weight: 600;
     font-size: 20px;
 }
 .notas h3{
     margin-top: 0px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-regular", sans-serif;
     font-weight: 300;
     font-size: 15px;
 }

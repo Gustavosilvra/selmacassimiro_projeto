@@ -1,7 +1,7 @@
 .atends{
     display: block;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-regular", sans-serif;
     font-size: 30px;
     font-weight: 400;
     color: #2998b7;
@@ -18,8 +18,7 @@
 
 .atend-criancas h2, .atend-adole h2, .atend-adultos h2{
     color: #252525;
-    font-family: "Poppins", sans-serif;
-    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.5);
+    font-family: "Poppins-light", sans-serif;
 }
 
 
@@ -27,7 +26,7 @@
     text-align: justify;
     font-size: 15px;
     max-width: 300px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-regular", sans-serif;
 }
 .atend-criancas img{
     width: 300px;
@@ -53,7 +52,7 @@
     border-radius: 50px;
     font-size: 20px;
     color: #000;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-regular", sans-serif;
     font-weight: 300;
 }
 .falecomigo-botao a:hover{

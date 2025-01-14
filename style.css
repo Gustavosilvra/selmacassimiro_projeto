@@ -4,17 +4,22 @@
 @import url(./atendimentos.css);
 @import url(./footer.css);
 
-
 @font-face {
     font-family: "Snell";
-    src: url('./fonts/snell-bold.otf') format("otf"); 
+    src: url(./fonts/snell-bold.otf); 
 }
 @font-face {
     font-family: 'Amsterdam';
     src: url(./fonts/Amsterdam.ttf);
 }
-
-
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-light";
+    src: url(./fonts/Poppins-Light.ttf);
+}
 html{
     scroll-behavior: smooth;
 }

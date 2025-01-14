@@ -6,7 +6,6 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-     position: relative;
  }
  .selmanome{
      font-family: "Amsterdam", sans-serif;
@@ -14,32 +13,41 @@
      font-weight: 300;
      text-shadow: -2px 0px 2px rgba(0, 0, 0, 0.5);
      /*outline: 1px blue solid;*/
- }
+     grid-column: 2;
+     }
 
  .nome-simb{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
-   /* outline: 1px red solid;*/
-    font-family: "Poppins", sans-serif;
+    /*outline: 1px red solid;*/
+    font-family: "Poppins-regular", sans-serif;
     padding-right: 0px;
     margin-right: 250px;
  }
 
 .crpclasse{
+    grid-column: 1;
     align-self: end;
     justify-self: center;
-    font-size: 15px;
+    font-size: 12px;
    /* outline: 1px blue solid;*/
     padding: 0px;
     max-width: 150px;
-    margin-left: 35px;
+    margin-left: 45px;
+}
+.psinome{
+    font-size: 18px;
+    position: absolute;
+    right: -10px;
+    top: 70px;
+  /* outline: 1px red solid;*/
 }
 .nome-simb{
     position: relative;
 }
 
- .nome-simb h1::before{
+ .nome-simb::before{
  content: "";
  height: 75px;
  width: 175px;
@@ -47,15 +55,15 @@
  background-repeat: no-repeat;
  background-position: center;
  position: absolute;
- right: 250px;
- top: 25px;
+ left: 55px;
+ top: 30px;
  }
  
  .linkwpp{
      padding-left: 40px;
      font-size: 20px;
      text-decoration: none;
-     font-family: "Poppins";
+     font-family: "Poppins-regular";
      font-weight: 500;
      color: #82b1be;
  }
@@ -63,7 +71,7 @@
      padding-right: 40px;
      font-size: 20px;
      text-decoration: none;
-     font-family: "Poppins";
+     font-family: "Poppins-regular";
      font-weight: 500;
      color: #82b1be;
  }

@@ -1,8 +1,9 @@
 .footer-divs{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-regular", sans-serif;
     margin: 20px 0px 0px 80px;
+    max-width: 1000px;
 }
 .footer-divs a{
 text-decoration: underline;
@@ -16,18 +17,19 @@ color: #000;
     border-radius: 20px;
     color: #fcfcfc;
 }
-
-
 footer h1{
     color: #82b1be;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-regular", sans-serif;
     justify-self: center;
     margin-right: 70px;
 }
+.footer-tel, .footer-end{
+    justify-items: end;
+}
+
 .footer-divs h2{
     color: #82b1be;
 }
 footer{
     margin: 150px 0px 60px 80px;
-
 }
