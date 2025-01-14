@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-family: "Poppins-regular", sans-serif;
-    margin: 20px 0px 0px 80px;
-    max-width: 1000px;
+    margin: 20px 100px 80px 80px;
 }
 .footer-divs a{
 text-decoration: underline;

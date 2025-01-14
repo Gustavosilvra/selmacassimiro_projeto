@@ -21,7 +21,6 @@
     grid-template-columns: 1fr 1fr;
     align-content: center;
     /*outline: 1px red solid;*/
-    font-family: "Poppins-regular", sans-serif;
     padding-right: 0px;
     margin-right: 250px;
  }
@@ -31,16 +30,18 @@
     align-self: end;
     justify-self: center;
     font-size: 12px;
+    font-family: "Montserrat-extralight", Arial, Helvetica, sans-serif ;
    /* outline: 1px blue solid;*/
     padding: 0px;
     max-width: 150px;
     margin-left: 45px;
 }
 .psinome{
-    font-size: 18px;
+    font-size: 17px;
     position: absolute;
-    right: -10px;
-    top: 70px;
+    right: -15px;
+    top: 75px;
+    font-family: "Montserrat-extralight";
   /* outline: 1px red solid;*/
 }
 .nome-simb{

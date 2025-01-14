@@ -20,6 +20,10 @@
     font-family: "Poppins-light";
     src: url(./fonts/Poppins-Light.ttf);
 }
+@font-face {
+    font-family: "Montserrat-extralight";
+    src: url(./fonts/Montserrat-ExtraLight.ttf);
+}
 html{
     scroll-behavior: smooth;
 }
