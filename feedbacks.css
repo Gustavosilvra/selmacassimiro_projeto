@@ -49,7 +49,7 @@
     display: flex;
     justify-content: center;
     gap: 250px;
-    margin: 50px 0px;
+    margin: 50px 0px 100px 0px;
 }
 .linksflex a{
     background-color: #ffffff;
@@ -70,12 +70,6 @@
     background-size: 25px 25px;
     padding: 10px 15px 10px 45px;
 }
-.linkperfil{
-    background-position: 15px center;
-    background-size: 25px 25px;
-    padding: 10px 15px 10px 15px;
-}
-
 .linkinstag:hover{
     background: linear-gradient(to right, #7804bb, #ffae00);
     color: #ffffff;
@@ -89,10 +83,4 @@
     padding: 10px 30px 10px 30px;
     background-image: none;
 }
-.linkperfil:hover{
-    background: #2998b7;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 30px 10px 30px;
-    background-image: none;
-}
+
