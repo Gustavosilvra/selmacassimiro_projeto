@@ -1,26 +1,14 @@
 .main-grid1{
-   /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     margin: 50px 70px 100px 70px;
     align-items: center;
     justify-items: center;
 }
 
-/*.main-grid1 img{
-     grid-column: 1;
-     display: block;
-     width: 400px;
-     height: 500px;
-     grid-row: 1;
-     justify-self: center;
-     margin-right: 50px;
-}*/
 .texto-bio{
-    /*grid-column: 2;*/
     text-align: justify;
     font-family: "Poppins-regular", sans-serif;
-    font-weight: 500;
     max-width: 500px;
+    font-size: 16px;
     position: relative;
     z-index: 1;
     
@@ -28,11 +16,26 @@
 .texto-bio::before{
     content: "";
     background: url(./img/CARINHA\ SVG.svg) no-repeat center;
-    width: 530px;
-    height: 367px;
+    width: 560px;
+    height: 400px;
     top: -20px;
     right: -5px;
     position: absolute;
     z-index: -1;
     opacity: 10%;
+}
+
+@media(max-width:1000px){
+.texto-bio{
+    font-size: 14px;
+    max-width: 450px;
+}
+.texto-bio::before{
+    content: "";
+    background: url(./img/CARINHA\ SVG.svg) no-repeat center;
+    width: 700px;
+    height: 320px;
+    top: -20px;
+    right: -100px;
+}
 }

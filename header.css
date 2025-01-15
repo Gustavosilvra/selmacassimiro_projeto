@@ -12,15 +12,12 @@
      font-size: 30px;
      font-weight: 300;
      text-shadow: -2px 0px 2px rgba(0, 0, 0, 0.5);
-     /*outline: 1px blue solid;*/
      grid-column: 2;
      }
-
  .nome-simb{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
-    /*outline: 1px red solid;*/
     padding-right: 0px;
     margin-right: 250px;
  }
@@ -31,7 +28,6 @@
     justify-self: center;
     font-size: 12px;
     font-family: "Montserrat-extralight", Arial, Helvetica, sans-serif ;
-   /* outline: 1px blue solid;*/
     padding: 0px;
     max-width: 150px;
     margin-left: 45px;
@@ -42,7 +38,6 @@
     right: 0px;
     top: 75px;
     font-family: "Montserrat-extralight";
-  /* outline: 1px red solid;*/
 }
 .nome-simb{
     position: relative;
@@ -80,3 +75,53 @@
      color: rgb(121, 121, 224);
  }
  
+ @media(max-width:1000px){
+    .selmanome{
+        font-size: 20px;
+    }
+    .psinome{
+        font-size: 10px;
+        top: 50px;
+    }
+    .crpclasse{
+        font-size: 10px;
+    }
+    .nome-simb::before{
+        height: 55px;
+        width: 65px;
+        top: 15px;
+        left: 65px;
+    }
+    .linkwpp{
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .linkcontato{
+        padding-right: 20px;
+        font-size: 15px;
+ }
+}
+ @media(max-width:840px){
+    .selmanome{
+        font-size: 15px;
+    }
+    .psinome{
+        font-size: 7px;
+        top: 40px;
+    }
+    .crpclasse{
+        font-size: 7px;
+    }
+    .nome-simb::before{
+        height: 35px;
+        width: 45px;
+        top: 20px;
+        left: 62px;
+    }
+
+ }
+ @media(max-width:760px){
+    .selmanome{
+        font-size: 10px;
+    }
+ }

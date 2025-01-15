@@ -61,4 +61,27 @@
     background-color: #2998b7;
 }
 
+@media(max-width:1100px){
+    .atendimentos{
+        grid-template-columns: 1fr;
+    }
+    .atends{
+        font-size: 20px;
+    }
+    .atend-criancas h2, .atend-adole h2, .atend-adultos h2{
+        font-size: 15px;
+    }
 
+    .atend-criancas img, .atend-adole img, .atend-adultos img{
+        width: 200px;
+        height: 100px;
+    }
+    .atend-criancas p, .atend-adole p, .atend-adultos p{
+        font-size: 10px;
+        max-width: 200px;
+    }
+    .falecomigo-botao a{
+        font-size: 10px;
+        padding: 10px 30px;
+    }
+}
