@@ -104,5 +104,9 @@
     .notas::before{
         right: 130px;
     }
-
+}
+@media(max-width:460px){
+    .linksflex{
+        gap: 50px;
+    }
 }
