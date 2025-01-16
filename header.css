@@ -1,6 +1,6 @@
 .header-bg{
     background-color: #fcfcfc;
-    margin-top: 0px;
+    margin: 0px;
  }
  .header-itens{
      display: flex;
@@ -122,6 +122,9 @@
  }
  @media(max-width:760px){
     .selmanome{
-        font-size: 10px;
+        font-size: 15px;
+    }
+    .nome-simb{
+        margin-right: 0px;
     }
  }

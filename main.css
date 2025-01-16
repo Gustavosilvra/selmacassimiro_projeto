@@ -19,10 +19,11 @@
     width: 560px;
     height: 400px;
     top: -20px;
-    right: -5px;
+    right: -15px;
     position: absolute;
     z-index: -1;
     opacity: 10%;
+    transform: rotate(5deg);
 }
 
 @media(max-width:1000px){
@@ -35,7 +36,7 @@
     background: url(./img/CARINHA\ SVG.svg) no-repeat center;
     width: 700px;
     height: 320px;
-    top: -20px;
-    right: -100px;
+    top: -35px;
+    right: -110px;
 }
 }
