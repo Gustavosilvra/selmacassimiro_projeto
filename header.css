@@ -76,11 +76,12 @@
  }
  @media(max-width:1000px){
     .selmanome{
-        font-size: 25px;
+        font-size: 27px;
     }
     .psinome{
-        font-size: 10px;
-        top: 50px;
+        font-size: 12px;
+        top: 70px;
+        right: 5px;
     }
     .crpclasse{
         font-size: 10px;
@@ -88,8 +89,8 @@
     .nome-simb::before{
         height: 55px;
         width: 65px;
-        top: 15px;
-        left: 65px;
+        top: 45px;
+        left: 95px;
     }
     .linkwpp{
         padding-left: 20px;
@@ -108,17 +109,18 @@
         font-size: 25px;
     }
     .psinome{
-        font-size: 7px;
-        top: 40px;
+        font-size: 11px;
+        top: 65px;
     }
     .crpclasse{
         font-size: 7px;
+        padding-bottom: 15px;
     }
     .nome-simb::before{
-        height: 35px;
-        width: 45px;
-        top: 20px;
-        left: 62px;
+        height: 55px;
+        width: 55px;
+        top: 30px;
+        left: 92px;
     }
 
  }
@@ -128,7 +130,27 @@
         margin: 0px;
     }
     .nome-simb{
-        margin-right: 20px;
+        margin-right: 60px;
+    }
+    .psinome{
+        font-size: 9px;
+        top: 38px;
+        right: 1px;
+    }
+    .crpclasse{
+        font-size: 7px;
+        padding-bottom: 2px;
+    }
+    .nome-simb::before{
+        height: 45px;
+        width: 35px;
+        top: 7px;
+        left: 85px;
+    }
+ }
+ @media(min-width:461px) and (max-width:530px){
+    .nome-simb::before{
+        left: 60px;
     }
  }
  @media(max-width:460px){
@@ -138,7 +160,7 @@
     
     .selmanome{
         font-size: 18px;
-        margin-right: 45px;
+        margin-right: 20px;
     }
     .crpclasse{
         font-size: 6px;
@@ -155,7 +177,7 @@
     .nome-simb::before{
         height: 33px;
         width: 38px;
-        top: 12px;
+        top: 10px;
         left: 48px;
     }
  }
