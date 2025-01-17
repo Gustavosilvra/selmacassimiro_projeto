@@ -38,18 +38,22 @@ footer{
 @media(max-width:1000px){
     footer h1{
         font-size: 20px;
-        align-self: center;
+        place-self: center;
     }
     .footer-divs h2{
         font-size: 10px;
     }
     .footer-divs{
-        margin: 20px 20px 30px 20px;
+        margin: 20px 10px 30px 20px;
     }
     .footer-divs a{
         font-size: 9px;
     }
     .footer-tel, .footer-end{
-        place-items: end;
+        place-self: end;
+        margin: 0px;
+    }
+    .footer-end h2, .footer-tel h2{
+        place-self: end;
     }
 }
