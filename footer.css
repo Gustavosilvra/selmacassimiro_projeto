@@ -36,7 +36,7 @@ footer{
 }
 
 @media(max-width:1000px){
-    footer h1{
+    .footer-h1{
         font-size: 20px;
         place-self: center;
     }
@@ -53,7 +53,10 @@ footer{
         place-self: end;
         margin: 0px;
     }
-    .footer-end h2, .footer-tel h2{
+    .footer-end h2{
         place-self: end;
+    }
+    .footer-end p{
+        text-align: end;
     }
 }
