@@ -13,13 +13,14 @@
      font-weight: 300;
      text-shadow: -2px 0px 2px rgba(0, 0, 0, 0.5);
      grid-column: 2;
+     white-space: nowrap;
      }
  .nome-simb{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
     padding-right: 0px;
-    margin-right: 250px;
+    margin-right: 150px;
  }
 
 .crpclasse{
@@ -31,6 +32,7 @@
     padding: 0px;
     max-width: 150px;
     margin-left: 45px;
+    white-space: nowrap;
 }
 .psinome{
     font-size: 14px;
@@ -42,7 +44,6 @@
 .nome-simb{
     position: relative;
 }
-
  .nome-simb::before{
  content: "";
  height: 75px;
@@ -54,7 +55,6 @@
  left: 55px;
  top: 30px;
  }
- 
  .linkwpp{
      padding-left: 40px;
      font-size: 20px;
@@ -74,10 +74,9 @@
  .linkwpp:hover, .linkcontato:hover{
      color: rgb(121, 121, 224);
  }
- 
  @media(max-width:1000px){
     .selmanome{
-        font-size: 20px;
+        font-size: 25px;
     }
     .psinome{
         font-size: 10px;
@@ -106,7 +105,7 @@
         margin-right: 100px;
     }
     .selmanome{
-        font-size: 15px;
+        font-size: 25px;
     }
     .psinome{
         font-size: 7px;
@@ -125,36 +124,38 @@
  }
  @media(max-width:760px){
     .selmanome{
-        font-size: 15px;
+        font-size: 20px;
+        margin: 0px;
     }
     .nome-simb{
         margin-right: 20px;
     }
  }
- @media(max-width:450px){
+ @media(max-width:460px){
     .nome-simb{
         margin-right: 20px;
     }
     
     .selmanome{
-        font-size: 10px;
+        font-size: 18px;
+        margin-right: 45px;
     }
     .crpclasse{
         font-size: 6px;
         padding-right: 15px;
     }
     .psinome{
-        font-size: 5px;
-        top: 25px;
-        right: 20px;
+        font-size: 9px;
+        top: 32px;
+        right: 44px;
     }
     .linkcontato, .linkwpp{
         font-size: 10px;
     }
     .nome-simb::before{
-        height: 28px;
+        height: 33px;
         width: 38px;
-        top: 5px;
+        top: 12px;
         left: 48px;
     }
  }
