@@ -102,6 +102,9 @@
  }
 }
  @media(max-width:840px){
+    .nome-simb{
+        margin-right: 100px;
+    }
     .selmanome{
         font-size: 15px;
     }
@@ -125,6 +128,33 @@
         font-size: 15px;
     }
     .nome-simb{
-        margin-right: 0px;
+        margin-right: 20px;
+    }
+ }
+ @media(max-width:450px){
+    .nome-simb{
+        margin-right: 20px;
+    }
+    
+    .selmanome{
+        font-size: 10px;
+    }
+    .crpclasse{
+        font-size: 6px;
+        padding-right: 15px;
+    }
+    .psinome{
+        font-size: 5px;
+        top: 25px;
+        right: 20px;
+    }
+    .linkcontato, .linkwpp{
+        font-size: 10px;
+    }
+    .nome-simb::before{
+        height: 28px;
+        width: 38px;
+        top: 5px;
+        left: 48px;
     }
  }

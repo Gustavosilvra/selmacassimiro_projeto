@@ -42,6 +42,10 @@ footer{
     .footer-divs h2{
         font-size: 10px;
     }
+    .footer-divs{
+        margin: 0px;
+        margin: 20px 20px 30px 20px;
+    }
     .footer-divs a{
         font-size: 9px;
     }
