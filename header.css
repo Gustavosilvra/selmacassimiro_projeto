@@ -130,7 +130,8 @@
         margin: 0px;
     }
     .nome-simb{
-        margin-right: 60px;
+        margin-right: 0px;
+        margin-left: -30px;
     }
     .psinome{
         font-size: 9px;
@@ -147,6 +148,9 @@
         top: 7px;
         left: 85px;
     }
+    .linkcontato, .linkwpp{
+        font-size: 10px;
+    }
  }
  @media(min-width:461px) and (max-width:530px){
     .nome-simb::before{
@@ -155,12 +159,11 @@
  }
  @media(max-width:460px){
     .nome-simb{
-        margin-right: 20px;
+        margin-right: 10px;
     }
     
     .selmanome{
         font-size: 18px;
-        margin-right: 20px;
     }
     .crpclasse{
         font-size: 6px;
@@ -170,9 +173,6 @@
         font-size: 9px;
         top: 32px;
         right: 20px;
-    }
-    .linkcontato, .linkwpp{
-        font-size: 10px;
     }
     .nome-simb::before{
         height: 33px;
