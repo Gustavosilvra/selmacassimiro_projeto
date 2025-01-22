@@ -17,10 +17,10 @@
 .texto-bio::before{
     content: "";
     background: url(./img/CARINHA\ SVG.svg) no-repeat center;
-    width: 750px;
-    height: 400px;
-    top: -20px;
-    right: -120px;
+    width: 900px;
+    height: 410px;
+    top: -30px;
+    right: -190px;
     position: absolute;
     z-index: -1;
     opacity: 10%;
