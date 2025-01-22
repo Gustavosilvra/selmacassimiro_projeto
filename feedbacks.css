@@ -107,6 +107,9 @@
 }
 @media(max-width:460px){
     .linksflex{
-        gap: 50px;
+        gap: 30px;
+    }
+    .linksflex a{
+        font-size: 10px;
     }
 }

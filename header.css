@@ -28,7 +28,7 @@
     align-self: end;
     justify-self: center;
     font-size: 12px;
-    font-family: "Montserrat-extralight", Arial, Helvetica, sans-serif ;
+    font-family: "Montserrat-regular", Arial, Helvetica, sans-serif ;
     padding: 0px;
     max-width: 150px;
     margin-left: 45px;
@@ -181,7 +181,7 @@
         display: initial;
         font-size: 6px;
         place-self: end;
-        padding: 20px 31px 0px 0px;
+        padding: 20px 21px 0px 0px;
         grid-column: 1/2;
         grid-row: 1;
     }
@@ -196,7 +196,41 @@
     }
  }
  @media(max-width:440px){
+    .nome-simb{
+        margin-left: 0px;
+    }
     .nome-simb::before{
         left: 80px;
     }
  }
+ @media(max-width:420px){
+    .crpclasse{
+        margin-left: 0px;
+    }
+    .justpsinome{
+        align-self: end;
+        justify-self: center;
+        padding-left: 23px;
+    }
+    .nome-simb::before{
+        left: 50px;
+    }
+}
+@media(max-width:385px){
+    .nome-simb::before{
+        left: 50px;
+    }
+    .linkwpp, .linkcontato{
+        font-size: 6px;
+    }
+}
+@media(max-width:360px){
+    .nome-simb::before{
+        left: 40px;
+    }
+}
+@media(max-width:330px){
+    .selmanome{
+        font-size: 14px;
+    }
+}

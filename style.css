@@ -24,6 +24,10 @@
     font-family: "Montserrat-extralight";
     src: url(./fonts/Montserrat-ExtraLight.ttf);
 }
+@font-face {
+    font-family: "Montserrat-regular";
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
 
 html{
     scroll-behavior: smooth;
