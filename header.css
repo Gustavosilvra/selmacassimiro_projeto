@@ -180,7 +180,8 @@
     }
     .justpsinome{
         display: initial;
-        font-size: 6px;
+        font-size: 8px;
+        margin-bottom: 3px;
         place-self: end;
         padding: 20px 21px 0px 0px;
         grid-column: 1/2;
@@ -198,10 +199,11 @@
  }
  @media(max-width:440px){
     .nome-simb{
+        grid-template-columns: 0.5fr 1fr;
         margin-left: 0px;
     }
     .nome-simb::before{
-        left: 50px;
+        left: 35px;
     }
     .crpclasse{
         margin-left: 0px;
@@ -216,14 +218,14 @@
  }
 @media(max-width:395px){
     .nome-simb{
-        grid-template-columns: 0.7fr 1fr;
-        margin-right: 0px;
+        margin-right: 30px;
     }
     .selmanome{
-        font-size: 18px;
+        font-size: 17px;
     }
     .nome-simb::before{
-        left: 30px;
+        left: 40px;
+        top: 6px;
     }
     .linkwpp, .linkcontato{
         font-size: 7px;
