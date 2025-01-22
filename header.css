@@ -33,6 +33,7 @@
     max-width: 150px;
     margin-left: 45px;
     white-space: nowrap;
+    text-decoration: none;
 }
 .justpsinome{
     display: none;
@@ -200,22 +201,18 @@
         margin-left: 0px;
     }
     .nome-simb::before{
-        left: 80px;
+        left: 50px;
     }
- }
- @media(max-width:420px){
     .crpclasse{
         margin-left: 0px;
     }
     .justpsinome{
+        font-size: 5px;
         align-self: end;
         justify-self: center;
         padding-left: 23px;
     }
-    .nome-simb::before{
-        left: 50px;
-    }
-}
+ }
 @media(max-width:385px){
     .nome-simb::before{
         left: 50px;
