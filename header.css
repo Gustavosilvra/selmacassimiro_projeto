@@ -207,18 +207,26 @@
         margin-left: 0px;
     }
     .justpsinome{
-        font-size: 5px;
+        font-size: 8px;
+        margin: 0px 0px 4px 0px;
         align-self: end;
         justify-self: center;
         padding-left: 23px;
     }
  }
-@media(max-width:385px){
+@media(max-width:395px){
+    .nome-simb{
+        grid-template-columns: 0.7fr 1fr;
+        margin-right: 0px;
+    }
+    .selmanome{
+        font-size: 18px;
+    }
     .nome-simb::before{
-        left: 50px;
+        left: 30px;
     }
     .linkwpp, .linkcontato{
-        font-size: 6px;
+        font-size: 7px;
     }
 }
 @media(max-width:360px){
